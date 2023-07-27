@@ -1,0 +1,29 @@
+{
+  "name": "codepauser",
+  "version": "1.0.0",
+  "description": "CodePauser is an npm package that allows you to pause the execution of your code for a certain amount of time.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src --format cjs,esm --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notcharliee/codepauser.git"
+  },
+  "keywords": [
+    "pause",
+    "wait"
+  ],
+  "author": "notcharliee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notcharliee/codepauser/issues"
+  },
+  "homepage": "https://github.com/notcharliee/codepauser#readme",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
