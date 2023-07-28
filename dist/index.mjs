@@ -5,5 +5,5 @@ function pause(milliseconds) {
   }
 }
 export {
-  pause as default
+  pause
 };

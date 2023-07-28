@@ -17,7 +17,7 @@ To use CodePauser in your project, follow these steps:
 1. Import the `pause` function into your file:
 
 ```js
-import pause from 'codepauser';
+import { pause } from 'codepauser';
 ```
 
 2. Use the `pause` function to introduce a delay in your code:
